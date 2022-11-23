@@ -19,7 +19,6 @@ header{
 .log1{
 	margin-left: 50%;
 	text-decoration: none;
-    font-family: cursive;
 	color: black;
 
 
@@ -27,7 +26,6 @@ header{
 .log2{
 	margin-right: 0%;
 	text-decoration: none;
-	font-family: cursive;
 	color: black;
 
 
@@ -62,8 +60,6 @@ header{
 .search_info{
 	margin-left: 15%;
 	margin-right: 15%;
-	
-
 }
 .po_number{
 	color: white;
@@ -97,14 +93,6 @@ header{
 	margin-bottom: 5px;
 	border-radius: 3px;
 }
-/*.submit_main{
-	margin-left: -6px;
-	border-radius: 5px;
-	border-color: white;
-	margin-bottom: 5px;
-	width: 50px;
-	height: 40px;
-}*/
 body > div > .main > .tabl > ul > li{
 	margin-left: 12%;
 	border-radius: 3px;
@@ -119,8 +107,6 @@ body > div > .main > .tabl > ul > li > a{
 	text-decoration: none;
 	
 	color: black;
-	/*border: 2px solid;
-	border-color: #cccccc;*/
 }
 q::before {
   content: ">";
@@ -130,13 +116,11 @@ q::before {
   justify-content: end;
   margin-top: -20px;
 }
-
 .container{
 	display: flex;
 	margin-left: 430px;
 	margin-top: -500px;
-	color: #cccccc;
-	
+	color: #cccccc;	
 }
 .tema{
 	margin-left: 430px;
@@ -145,7 +129,6 @@ q::before {
 .new_by{
 	margin-left: 430px;
 	margin-top: 30px;
-
 }
 .newb{
 	display: flex;
@@ -156,16 +139,12 @@ q::before {
 	border-radius: 3px;
 	width: 80px;
 	height: 40px;
-
 	padding: 1%;
 	background-color: white;
 	color: black;
 	border-color: orange;
 }
-
 .by{
-
-
 	border-radius: 3px;
 	width: 80px;
 	height: 40px;
@@ -177,22 +156,18 @@ q::before {
 .new_by2{
 	margin-left: 990px;
 	margin-top: -40px;
-/*	float: right;*/
 	margin-right: 15%;
 }
 .new2{
 	border-radius: 3px;
 	width: 120px;
 	height: 40px;
-
 	padding: 1%;
 	background-color: white;
 	color: black;
 	border-color: orange;
 }
 .by2{
-
-
 	border-radius: 3px;
 	width: 120px;
 	height: 40px;
@@ -221,7 +196,6 @@ q::before {
 	background-image: url("stoika.jpg");
 	background-size: cover;
 	background-position: cover;
-
 }
 .content{
 	width: 300px;
@@ -244,24 +218,22 @@ q::before {
 
 .actions{
 	width: 150px;
-	
 	display: flex;
-  	align-items: center;
-  	justify-content: center;
-  	margin-top: 40%;
-  	border-radius: 3px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40%;
+  border-radius: 3px;
 	padding: 4%;
 	background-color: orange;
 	color: white;
 	box-shadow: -4px 1px 10px -2px rgba(0,0,0,1);
 	border-color: #cccccc;
 	outline: none;
-
 }
 
 @media screen and (max-width: 520px){
 .oplata{
-	margin-left: 9px;
+	margin-left: 5px;
 }
 .log1{
 	margin-left: 75px;
@@ -271,11 +243,14 @@ q::before {
 	margin-top: -20px;
 	margin-left: 200px;
 }
+.search_submit{
+	margin-left: 40px;
+}
 .submit{
 	border-radius: 3px;
 	padding: 1%;
 	margin-top: 5px;
-	margin-left: 130px;
+	margin-left: 120px;
 	background-color: orange;
 	color: white;
 	border-color: white;
@@ -284,10 +259,10 @@ q::before {
 	display: none;
 }
 .tabl{
-	margin-left: 65px;
+	margin-left: 50px;
 }
 .seatch_main{
-	margin-left: 57px;
+	margin-left: 45px;
 }
 .container{
 	display: none;
@@ -297,11 +272,9 @@ q::before {
 }
 
 .container1{
-
-
 	width: 300px;
 	margin: 0 auto;
-	margin-left: 70px;
+	margin-left: 45px;
 	padding: 15px;
 	font-weight: normal;
 }
@@ -313,14 +286,12 @@ q::before {
 	box-shadow: 0px 0px 38px 10px rgba(0,0,0,0.75);
 }
 .new_by{
-	margin-left: 150px;
-	
-    margin-bottom: 50px;
+	margin-left: 125px;
+	margin-bottom: 50px;
 }
 .new_by2{
-	margin-left: 130px;
+	margin-left: 105px;
 	margin-bottom: 20px;
-
 }
 .new{
 	width: 70px;
